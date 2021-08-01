@@ -2,7 +2,6 @@
 # Using maclaurin series
 # More detail in README.md
 
-import scipy as sp
 import numpy as np
 import matplotlib.pyplot as plt
 from sympy import *
