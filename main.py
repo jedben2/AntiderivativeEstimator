@@ -1,5 +1,5 @@
 # Antiderivative Estimator
-# Using the function as the rate of change to add dy for every dx
+# Using maclaurin series
 # More detail in README.md
 
 import scipy as sp
