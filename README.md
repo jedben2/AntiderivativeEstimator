@@ -17,4 +17,4 @@ in the directory.
 
 # Explaination
 
-So this program plots an approximaton of a function's antiderivative. It does this via a series which stems from the function's Maclaurins series
+![explain](https://github.com/jedben2/AntiderivativeEstimator/blob/main/explainationImages/explainLaTeX.png)
