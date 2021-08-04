@@ -9,10 +9,7 @@ import math
 import time
 
 # Plot area and detail
-X_LOWER = -10
-X_UPPER = 10
-Y_LOWER = -10
-Y_UPPER = 10
+AXIS_RADIUS = 5
 SPACING = 1000
 
 # Set up graph
@@ -21,19 +18,19 @@ fig, ax = plt.subplots()
 plt.title("Antiderivative Approximation")
 plt.xlabel("x")
 plt.ylabel("y")
-plt.xlim([X_LOWER, X_UPPER])
-plt.ylim([Y_LOWER, Y_UPPER])
+plt.xlim([-1 * AXIS_RADIUS, AXIS_RADIUS])
+plt.ylim([-1 * AXIS_RADIUS, AXIS_RADIUS])
 
 # Increase degree of accuracy
 ACCURACY = 100
-C = -3
+C = 0
 
 # Does the function plot or not?
 NO_f = 0
 NO_F = 0
 
 # Set up x axis
-x = np.linspace(X_LOWER, X_UPPER, SPACING)
+x = np.linspace(-1 * AXIS_RADIUS, AXIS_RADIUS, SPACING)
 
 
 # Removes a function from plot if not needed without breaking code
@@ -43,12 +40,12 @@ def zero():
 
 # f(x). put whatever you like in here as long as it can return a real number
 def f(x):
-    return log(cos(x) ** 2)
+    return floor(x)
 
 
 # Version of f(x) which will be able to be plotted onto the graph. Can differ from the one above
 def f_plot(x):
-    return 2 * np.log(np.power(np.cos(x), 2))
+    return floor(x)
 
 
 # Antiderivative function. Works as explained in README.md

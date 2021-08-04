@@ -1,5 +1,5 @@
 # AntiderivativeEstimator
-Program that estimates antiderivatives utilising Maclaurin series.
+Program that estimates antiderivative utilising Taylor Polynomials.
 
 # Setup:
 Needs [Python 3](https://www.python.org/downloads/) and [Git](https://git-scm.com/download/) installed and added to PATH.
@@ -15,6 +15,8 @@ To run the program, do:
     
 in the directory.
 
-# Explaination
+# Explanation
 
 ![explain](https://github.com/jedben2/AntiderivativeEstimator/blob/main/explainationImages/explainLaTeX.png)
+
+This project can be considered finished with some minor bugs where some functions do not work ¯\_(ツ)_/¯
