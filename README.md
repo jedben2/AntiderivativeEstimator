@@ -19,4 +19,4 @@ in the directory.
 
 ![explain](https://github.com/jedben2/AntiderivativeEstimator/blob/main/explainationImages/explainLaTeX.png)
 
-This project can be considered finished with some minor bugs where some functions do not work ¯\_(ツ)_/¯
+This project can be considered finished with some minor bugs where some functions do not work ¯\\_(ツ)_/¯
